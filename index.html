@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monashree | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- 1. Personalized Logo -->
+      <a href="#home" class="logo">
+        <i class="fa-solid fa-code"></i>
+        <span>Monashree | Portfolio</span>
+      </a>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- Nav links -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home"   class="nav-link active">Home</a></li>
+        <li><a href="#about"  class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link btn-cta">Contact</a></li>
+        <li>
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── PAGE CONTENT ── -->
+  <main class="page">
+    
+    <!-- 2. Hero Section with personalized intro -->
+    <section id="home" class="hero">
+      <h1>Hi, I'm Monashreegowda T S</h1>
+      <p class="subtitle">Computer Science Engineering Student</p>
+      <p>I solve problems with code.</p>
+    </section>
+
+    <!-- 3. Improved About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>I am a 5th-semester <strong>BE Computer Science</strong> student at Institute of Technology, Mysore.</p>
+      <p>I have a strong interest in <strong>programming and software development</strong>. I love turning ideas into functional, clean, and user-friendly applications. Currently, I'm focusing on full-stack web development and strengthening my Data Structures & Algorithms skills.</p>
+    </section>
+
+    <!-- 4. Improved Skills Section (Only the requested tech) -->
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <ul class="skills-list">
+        <li><i class="fa-brands fa-html5"></i> HTML</li>
+        <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+        <li><i class="fa-brands fa-python"></i> Python</li>
+        <li><i class="fa-brands fa-java"></i> Java</li>
+        <li><i class="fa-solid fa-database"></i> MySQL</li>
+        <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
+      </ul>
+    </section>
+
+    <!-- 5. Improved Projects Section -->
+    <section id="projects" class="section">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio built with HTML, CSS, and JavaScript to showcase my profile.</p>
+          <a href="#" class="btn-project">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <h3>CV Card</h3>
+          <p>Online resume featuring my education, skills, and contact details in a clean layout.</p>
+          <a href="#" class="btn-project">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <h3>Responsive Navigation Bar</h3>
+          <p>a website menu that automatically adjusts its layout and appearance to fit any screen size.</p>
+          <a href="#" class="btn-project">View Project <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. Improved Contact Section -->
+    <section id="contact" class="section">
+      <h2>Get In Touch</h2>
+      <p>Feel free to reach out for opportunities or collaborations.</p>
+      
+      <div class="contact-links">
+        <!-- Replace the emails and links below with your actual details -->
+        <a href="mailto:monashree@gmail.com" class="btn btn-primary">
+          <i class="fa-solid fa-envelope"></i> Email Me
+        </a>
+        <a href="https://linkedin.com/in/monashree" target="_blank" class="btn btn-outline">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/monashree" target="_blank" class="btn btn-outline">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 7. Footer -->
+  <footer>
+    <p>&copy; 2026 Monashree. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
